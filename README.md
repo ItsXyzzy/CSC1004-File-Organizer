@@ -18,7 +18,7 @@ Week_05/
 Week_10/
 └── Lab_2/
     └── count_102.py
-
+```
 
 ## Instructions
 
