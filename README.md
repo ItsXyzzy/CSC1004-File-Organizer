@@ -19,6 +19,7 @@ Week_10/
 └── Lab_2/
     └── count_102.py
 ```
+> **Note:** I haven't tested this on TermCast, only my personal machine running Linux using the download provided by Einstein, use at your own risk.
 
 ## Instructions
 
@@ -53,5 +54,3 @@ For the auto-sorting phase to work, your Python files must follow the course sta
 * `count_102.py` ➔ Moved to `Week_10/Lab_2/`
 
 > **Note:** Any file that does not match this pattern (as well as `organizer.py` itself) will remain untouched in the root directory.
-
-> **Note:** I haven't tested this on TermCast, only my personal machine running Linux using the download provided by Einstein, use at your own risk.
