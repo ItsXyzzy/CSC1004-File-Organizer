@@ -3,6 +3,7 @@
 A simple Python utility script to consolidate and organize lab files for **CSC1004: Computer Programming II** at Dublin City University (DCU). I wrote this for CSC1004 but with hopes that other modules use similar naming conventions and I can reuse the script.
 
 ---
+![Organizer Main Menu](organizercli.png)
 
 ## Overview
 
