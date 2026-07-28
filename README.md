@@ -54,3 +54,28 @@ For the auto-sorting phase to work, your Python files must follow the course sta
 * `count_102.py` ➔ Moved to `Week_10/Lab_2/`
 
 > **Note:** Any file that does not match this pattern (as well as `organizer.py` itself) will remain untouched in the root directory.
+---
+
+## Changelog
+
+### [2.0.0] - Interactive CLI & Safety Update
+
+#### Added
+* **Interactive Terminal Menu:** Choose between full run, flatten only, organize only, or dry run without editing code.
+* **Working Directory Display:** Menu now explicitly shows the target folder path before running actions.
+* **Dry Run Mode:** Preview all file moves and renames without making actual changes to the filesystem.
+* **Collision Protection:** Automatically appends `_dupX` suffixes if a file with the same name already exists in the destination.
+* **Execution Logging:** Automatically generates an `organizer_log.txt` file recording all moved files and timestamps.
+* **Terminal UI:** Added ANSI color styling, structured tree output, and a post-run breakdown showing file counts by week.
+
+#### Changed
+* Loop now returns to the main menu after execution instead of exiting immediately.
+* Filter skips existing `Week_XX` directories during phase 1 flattening to prevent recursive looping on re-runs.
+
+---
+
+### [1.0.0] - Initial Release
+
+#### Added
+* Recursive directory flattening for `.py` files.
+* Auto-sorting based on `_WWL.py` regex naming pattern into `Week_WW/Lab_L` directory structure.
