@@ -1,0 +1,14 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Script output logs
+organizer_log.txt
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Virtual environments (if used)
+venv/
+.venv/
