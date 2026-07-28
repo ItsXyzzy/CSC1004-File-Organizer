@@ -1,6 +1,6 @@
 # CSC1004 File Organizer
 
-A simple Python utility script to consolidate and organize lab files for **CSC1004: Computer Programming II** at Dublin City University (DCU).
+A simple Python utility script to consolidate and organize lab files for **CSC1004: Computer Programming II** at Dublin City University (DCU). I wrote this for CSC1004 but with hopes that other modules use similar naming conventions and I can reuse the script.
 
 ---
 
@@ -58,7 +58,7 @@ For the auto-sorting phase to work, your Python files must follow the course sta
 
 ## Changelog
 
-### [2.0.0] - Interactive CLI & Safety Update
+### [2.0.0] - Interactive CLI & Safety Update - 28/07/2026
 
 #### Added
 * **Interactive Terminal Menu:** Choose between full run, flatten only, organize only, or dry run without editing code.
@@ -74,7 +74,7 @@ For the auto-sorting phase to work, your Python files must follow the course sta
 
 ---
 
-### [1.0.0] - Initial Release
+### [1.0.0] - Initial Release - 22/07/2026
 
 #### Added
 * Recursive directory flattening for `.py` files.
