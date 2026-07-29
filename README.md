@@ -30,6 +30,12 @@ Week_10/
 * No external libraries required (uses standard modules: `pathlib`, `shutil`, and `re`).
 
 ### Setup
+#### Quick Download
+Run this command in your terminal to download the script directly into your current folder:
+
+```bash
+curl -O [https://raw.githubusercontent.com/ItsXyzzy/CSC1004-File-Organizer/main/organizer.py](https://raw.githubusercontent.com/ItsXyzzy/CSC1004-File-Organizer/main/organizer.py)
+```
 
 1. Copy the `organizer.py` file into the main folder where your lab files or subfolders are located.
 
