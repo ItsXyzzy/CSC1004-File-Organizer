@@ -1,6 +1,6 @@
 # CSC1004 File Organizer
 
-A simple Python utility script to consolidate and organize lab files for **CSC1004: Computer Programming II** at Dublin City University (DCU). I wrote this for CSC1004 but with hopes that other modules use similar naming conventions and I can reuse the script.
+A simple Python utility script to consolidate and organize lab files for **CSC1004: Computer Programming II** at Dublin City University (DCU). I wrote this for CSC1004 with the hope that other modules use similar naming conventions and I can reuse the script.
 
 ---
 ![Organizer Main Menu](organizercli.png)
@@ -15,7 +15,7 @@ If your lab files are buried inside multiple subfolders or scattered around your
 ```text
 Week_05/
 └── Lab_1/
-    └── rain_051.py
+    └── volume_051.py
 Week_10/
 └── Lab_2/
     └── count_102.py
@@ -34,7 +34,7 @@ Week_10/
 Run this command in your terminal to download the script directly into your current folder:
 
 ```bash
-curl -O [https://raw.githubusercontent.com/ItsXyzzy/CSC1004-File-Organizer/main/organizer.py](https://raw.githubusercontent.com/ItsXyzzy/CSC1004-File-Organizer/main/organizer.py)
+curl -O https://raw.githubusercontent.com/ItsXyzzy/CSC1004-File-Organizer/main/organizer.py
 ```
 
 1. Copy the `organizer.py` file into the main folder where your lab files or subfolders are located.
@@ -57,7 +57,7 @@ For the auto-sorting phase to work, your Python files must follow the course sta
 
 **Examples:**
 
-* `rain_051.py` ➔ Moved to `Week_05/Lab_1/`
+* `volume_051.py` ➔ Moved to `Week_05/Lab_1/`
 * `count_102.py` ➔ Moved to `Week_10/Lab_2/`
 
 > **Note:** Any file that does not match this pattern (as well as `organizer.py` itself) will remain untouched in the root directory.
