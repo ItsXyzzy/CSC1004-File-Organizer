@@ -32,11 +32,14 @@ Week_10/
 ### Setup
 #### Quick Download
 Run this command in your terminal to download the script directly into your current folder:
-
+##### Linux / Mac
 ```bash
 curl -O https://raw.githubusercontent.com/ItsXyzzy/CSC1004-File-Organizer/main/organizer.py
 ```
-
+##### Windows
+```pwsh
+iwr "https://raw.githubusercontent.com/ItsXyzzy/CSC1004-File-Organizer/main/organizer.py" -OutFile "organizer.py"
+```
 1. Copy the `organizer.py` file into the main folder where your lab files or subfolders are located.
 
 ### How to Run
